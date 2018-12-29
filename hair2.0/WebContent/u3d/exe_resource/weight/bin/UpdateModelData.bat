@@ -1,0 +1,2 @@
+UpdateModelData.exe 7 13 ../obj/face_chang.obj ../obj/face_edan.obj ../obj/face_fang.obj ../obj/face_li.obj ../obj/face_linxing.obj ../obj/face_xin.obj ../obj/face_yuan.obj 1051,1052,1054,1060,948,950,1044,335,334,441,435,433,432
+pause

@@ -1,0 +1,13 @@
+#  Produced by Matlab Write Wobj exporter 
+# 
+newmtl face_chang:face_normal_face_normal_blinnSG
+illum 4
+Kd 0.00000 0.00000 0.00000
+Ka 0.00000 0.00000 0.00000
+Tf 1 1 1 
+map_Kd face_normal.jpg 
+Ni 1 
+Ks 0.50000 0.50000 0.50000
+Ns 0.06000
+# 
+#  EOF

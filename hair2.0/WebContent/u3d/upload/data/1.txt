@@ -1,0 +1,1 @@
+ - ·µ»Øjson:{"BlendWeight":"0,0,0,0.707107,0.707107,0,0","BodyTexturePath":"2933f7d6bb701f03a74005c1a2ca5df4_body_TextureRes.png","HeadTexturePath":"2933f7d6bb701f03a74005c1a2ca5df4_face_TextureRes.png","imageDomain":"http://192.168.191.1:8090/static"}

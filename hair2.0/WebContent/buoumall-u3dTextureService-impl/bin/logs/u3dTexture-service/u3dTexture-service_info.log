@@ -1,0 +1,261 @@
+2018-12-26 10:37:55[main:0]-[INFO] Starting Application v0.0.1-SNAPSHOT on LAPTOP-JU9IRUT9 with PID 7380 (C:\Users\lenovo\Desktop\buoumall-u3dTextureService-impl-assembly\buoumall-u3dTextureService-impl\lib\buoumall-u3dTextureService-impl-0.0.1-SNAPSHOT.jar started by lenovo in C:\Users\lenovo\Desktop\buoumall-u3dTextureService-impl-assembly\buoumall-u3dTextureService-impl\bin)
+2018-12-26 10:37:55[main:5]-[INFO] No active profile set, falling back to default profiles: default
+2018-12-26 10:37:55[main:76]-[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 10:37:55 CST 2018]; root of context hierarchy
+2018-12-26 10:37:55[background-preinit:484]-[INFO] HV000001: Hibernate Validator 5.2.4.Final
+2018-12-26 10:37:57[main:2113]-[INFO] Tomcat initialized with port(s): 8090 (http)
+2018-12-26 10:37:57[main:2129]-[INFO] Starting service Tomcat
+2018-12-26 10:37:57[main:2131]-[INFO] Starting Servlet Engine: Apache Tomcat/8.0.33
+2018-12-26 10:37:57[localhost-startStop-1:2268]-[INFO] Initializing Spring embedded WebApplicationContext
+2018-12-26 10:37:57[localhost-startStop-1:2269]-[INFO] Root WebApplicationContext: initialization completed in 2196 ms
+2018-12-26 10:37:57[localhost-startStop-1:2584]-[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-26 10:37:57[localhost-startStop-1:2591]-[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-26 10:37:57[localhost-startStop-1:2593]-[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-26 10:37:57[localhost-startStop-1:2593]-[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-26 10:37:57[localhost-startStop-1:2596]-[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-26 10:37:57[main:2881]-[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 10:37:55 CST 2018]; root of context hierarchy
+2018-12-26 10:37:58[main:2958]-[INFO] Mapped "{[/test]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.test(java.lang.String)
+2018-12-26 10:37:58[main:2960]-[INFO] Mapped "{[/upload],consumes=[multipart/*]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-12-26 10:37:58[main:2960]-[INFO] Mapped "{[/uploadFile]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 10:37:58[main:2964]-[INFO] Mapped "{[/handleTexture]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleTexture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 10:37:58[main:2966]-[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-26 10:37:58[main:2966]-[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-26 10:37:58[main:2992]-[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 10:37:58[main:2993]-[INFO] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 10:37:58[main:3032]-[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 10:37:58[main:3124]-[INFO] Registering beans for JMX exposure on startup
+2018-12-26 10:37:58[main:3158]-[INFO] Initializing ProtocolHandler ["http-nio-8090"]
+2018-12-26 10:37:58[main:3167]-[INFO] Starting ProtocolHandler ["http-nio-8090"]
+2018-12-26 10:37:58[main:3182]-[INFO] Using a shared selector for servlet write/read
+2018-12-26 10:37:58[main:3204]-[INFO] Tomcat started on port(s): 8090 (http)
+2018-12-26 10:37:58[main:3211]-[INFO] Started Application in 3.546 seconds (JVM running for 4.113)
+2018-12-26 10:51:19[main:0]-[INFO] Starting Application v0.0.1-SNAPSHOT on LAPTOP-JU9IRUT9 with PID 6840 (E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\lib\buoumall-u3dTextureService-impl-0.0.1-SNAPSHOT.jar started by lenovo in E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\bin)
+2018-12-26 10:51:19[main:1]-[INFO] No active profile set, falling back to default profiles: default
+2018-12-26 10:51:19[main:45]-[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 10:51:19 CST 2018]; root of context hierarchy
+2018-12-26 10:51:20[background-preinit:523]-[INFO] HV000001: Hibernate Validator 5.2.4.Final
+2018-12-26 10:51:21[main:1690]-[INFO] Tomcat initialized with port(s): 8090 (http)
+2018-12-26 10:51:21[main:1705]-[INFO] Starting service Tomcat
+2018-12-26 10:51:21[main:1707]-[INFO] Starting Servlet Engine: Apache Tomcat/8.0.33
+2018-12-26 10:51:21[localhost-startStop-1:1814]-[INFO] Initializing Spring embedded WebApplicationContext
+2018-12-26 10:51:21[localhost-startStop-1:1816]-[INFO] Root WebApplicationContext: initialization completed in 1774 ms
+2018-12-26 10:51:22[localhost-startStop-1:2183]-[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-26 10:51:22[localhost-startStop-1:2190]-[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-26 10:51:22[localhost-startStop-1:2191]-[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-26 10:51:22[localhost-startStop-1:2198]-[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-26 10:51:22[localhost-startStop-1:2199]-[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-26 10:51:22[main:2439]-[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 10:51:19 CST 2018]; root of context hierarchy
+2018-12-26 10:51:22[main:2506]-[INFO] Mapped "{[/test]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.test(java.lang.String)
+2018-12-26 10:51:22[main:2509]-[INFO] Mapped "{[/handleTexture]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleTexture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 10:51:22[main:2510]-[INFO] Mapped "{[/upload],consumes=[multipart/*]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-12-26 10:51:22[main:2512]-[INFO] Mapped "{[/uploadFile]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 10:51:22[main:2513]-[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-26 10:51:22[main:2514]-[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-26 10:51:22[main:2540]-[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 10:51:22[main:2540]-[INFO] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 10:51:22[main:2572]-[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 10:51:22[main:2646]-[INFO] Registering beans for JMX exposure on startup
+2018-12-26 10:51:22[main:2673]-[INFO] Initializing ProtocolHandler ["http-nio-8090"]
+2018-12-26 10:51:22[main:2682]-[INFO] Starting ProtocolHandler ["http-nio-8090"]
+2018-12-26 10:51:22[main:2698]-[INFO] Using a shared selector for servlet write/read
+2018-12-26 10:51:22[main:2736]-[INFO] Tomcat started on port(s): 8090 (http)
+2018-12-26 10:51:22[main:2744]-[INFO] Started Application in 3.006 seconds (JVM running for 3.421)
+2018-12-26 11:07:11[http-nio-8090-exec-1:951803]-[INFO] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-26 11:07:11[http-nio-8090-exec-1:951808]-[INFO] FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-26 11:07:11[http-nio-8090-exec-1:951852]-[INFO] FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-12-26 11:08:33[main:0]-[INFO] Starting Application v0.0.1-SNAPSHOT on LAPTOP-JU9IRUT9 with PID 9672 (E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\lib\buoumall-u3dTextureService-impl-0.0.1-SNAPSHOT.jar started by lenovo in E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\bin)
+2018-12-26 11:08:33[main:1]-[INFO] No active profile set, falling back to default profiles: default
+2018-12-26 11:08:33[main:42]-[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 11:08:33 CST 2018]; root of context hierarchy
+2018-12-26 11:08:34[background-preinit:419]-[INFO] HV000001: Hibernate Validator 5.2.4.Final
+2018-12-26 11:08:35[main:1461]-[INFO] Tomcat initialized with port(s): 8090 (http)
+2018-12-26 11:08:35[main:1473]-[INFO] Starting service Tomcat
+2018-12-26 11:08:35[main:1474]-[INFO] Starting Servlet Engine: Apache Tomcat/8.0.33
+2018-12-26 11:08:35[localhost-startStop-1:1577]-[INFO] Initializing Spring embedded WebApplicationContext
+2018-12-26 11:08:35[localhost-startStop-1:1578]-[INFO] Root WebApplicationContext: initialization completed in 1539 ms
+2018-12-26 11:08:35[localhost-startStop-1:1830]-[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-26 11:08:35[localhost-startStop-1:1837]-[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-26 11:08:35[localhost-startStop-1:1837]-[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-26 11:08:35[localhost-startStop-1:1838]-[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-26 11:08:35[localhost-startStop-1:1839]-[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-26 11:08:35[main:2055]-[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 11:08:33 CST 2018]; root of context hierarchy
+2018-12-26 11:08:35[main:2110]-[INFO] Mapped "{[/test]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.test(java.lang.String)
+2018-12-26 11:08:35[main:2112]-[INFO] Mapped "{[/handleTexture]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleTexture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 11:08:35[main:2112]-[INFO] Mapped "{[/upload],consumes=[multipart/*]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-12-26 11:08:35[main:2115]-[INFO] Mapped "{[/uploadFile]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 11:08:35[main:2117]-[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-26 11:08:35[main:2118]-[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-26 11:08:35[main:2257]-[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:08:35[main:2258]-[INFO] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:08:35[main:2294]-[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:08:36[main:2366]-[INFO] Registering beans for JMX exposure on startup
+2018-12-26 11:08:36[main:2394]-[INFO] Initializing ProtocolHandler ["http-nio-8090"]
+2018-12-26 11:08:36[main:2403]-[INFO] Starting ProtocolHandler ["http-nio-8090"]
+2018-12-26 11:08:36[main:2420]-[INFO] Using a shared selector for servlet write/read
+2018-12-26 11:08:36[main:2440]-[INFO] Tomcat started on port(s): 8090 (http)
+2018-12-26 11:08:36[main:2447]-[INFO] Started Application in 2.696 seconds (JVM running for 3.085)
+2018-12-26 11:09:17[http-nio-8090-exec-1:44331]-[INFO] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-26 11:09:17[http-nio-8090-exec-1:44347]-[INFO] FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-26 11:09:18[http-nio-8090-exec-1:44408]-[INFO] FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+2018-12-26 11:11:59[main:0]-[INFO] Starting Application v0.0.1-SNAPSHOT on LAPTOP-JU9IRUT9 with PID 592 (E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\lib\buoumall-u3dTextureService-impl-0.0.1-SNAPSHOT.jar started by lenovo in E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\bin)
+2018-12-26 11:11:59[main:1]-[INFO] No active profile set, falling back to default profiles: default
+2018-12-26 11:11:59[main:68]-[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 11:11:59 CST 2018]; root of context hierarchy
+2018-12-26 11:11:59[background-preinit:593]-[INFO] HV000001: Hibernate Validator 5.2.4.Final
+2018-12-26 11:12:01[main:2360]-[INFO] Tomcat initialized with port(s): 8090 (http)
+2018-12-26 11:12:01[main:2383]-[INFO] Starting service Tomcat
+2018-12-26 11:12:01[main:2385]-[INFO] Starting Servlet Engine: Apache Tomcat/8.0.33
+2018-12-26 11:12:01[localhost-startStop-1:2573]-[INFO] Initializing Spring embedded WebApplicationContext
+2018-12-26 11:12:01[localhost-startStop-1:2578]-[INFO] Root WebApplicationContext: initialization completed in 2511 ms
+2018-12-26 11:12:02[localhost-startStop-1:3021]-[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-26 11:12:02[localhost-startStop-1:3032]-[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-26 11:12:02[localhost-startStop-1:3034]-[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-26 11:12:02[localhost-startStop-1:3034]-[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-26 11:12:02[localhost-startStop-1:3035]-[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-26 11:12:02[main:3379]-[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 11:11:59 CST 2018]; root of context hierarchy
+2018-12-26 11:12:02[main:3465]-[INFO] Mapped "{[/test]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.test(java.lang.String)
+2018-12-26 11:12:02[main:3466]-[INFO] Mapped "{[/handleTexture]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleTexture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 11:12:02[main:3467]-[INFO] Mapped "{[/upload],consumes=[multipart/*]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-12-26 11:12:02[main:3472]-[INFO] Mapped "{[/uploadFile]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 11:12:02[main:3475]-[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-26 11:12:02[main:3479]-[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-26 11:12:02[main:3513]-[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:12:02[main:3516]-[INFO] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:12:02[main:3566]-[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:12:02[main:3686]-[INFO] Registering beans for JMX exposure on startup
+2018-12-26 11:12:02[main:3729]-[INFO] Initializing ProtocolHandler ["http-nio-8090"]
+2018-12-26 11:12:03[main:3737]-[INFO] Starting ProtocolHandler ["http-nio-8090"]
+2018-12-26 11:12:03[main:3762]-[INFO] Using a shared selector for servlet write/read
+2018-12-26 11:12:03[main:3786]-[INFO] Tomcat started on port(s): 8090 (http)
+2018-12-26 11:12:03[main:3797]-[INFO] Started Application in 4.266 seconds (JVM running for 5.16)
+2018-12-26 11:12:27[http-nio-8090-exec-1:28035]-[INFO] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-26 11:12:27[http-nio-8090-exec-1:28036]-[INFO] FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-26 11:12:27[http-nio-8090-exec-1:28090]-[INFO] FrameworkServlet 'dispatcherServlet': initialization completed in 53 ms
+2018-12-26 11:28:58[main:0]-[INFO] Starting Application v0.0.1-SNAPSHOT on LAPTOP-JU9IRUT9 with PID 15560 (E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\lib\buoumall-u3dTextureService-impl-0.0.1-SNAPSHOT.jar started by lenovo in E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\bin)
+2018-12-26 11:28:58[main:2]-[INFO] No active profile set, falling back to default profiles: default
+2018-12-26 11:28:58[main:68]-[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 11:28:58 CST 2018]; root of context hierarchy
+2018-12-26 11:28:58[background-preinit:629]-[INFO] HV000001: Hibernate Validator 5.2.4.Final
+2018-12-26 11:29:00[main:2456]-[INFO] Tomcat initialized with port(s): 8090 (http)
+2018-12-26 11:29:00[main:2477]-[INFO] Starting service Tomcat
+2018-12-26 11:29:00[main:2478]-[INFO] Starting Servlet Engine: Apache Tomcat/8.0.33
+2018-12-26 11:29:01[localhost-startStop-1:2677]-[INFO] Initializing Spring embedded WebApplicationContext
+2018-12-26 11:29:01[localhost-startStop-1:2678]-[INFO] Root WebApplicationContext: initialization completed in 2615 ms
+2018-12-26 11:29:01[localhost-startStop-1:3145]-[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-26 11:29:01[localhost-startStop-1:3158]-[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-26 11:29:01[localhost-startStop-1:3160]-[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-26 11:29:01[localhost-startStop-1:3162]-[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-26 11:29:01[localhost-startStop-1:3163]-[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-26 11:29:01[main:3587]-[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 11:28:58 CST 2018]; root of context hierarchy
+2018-12-26 11:29:02[main:3738]-[INFO] Mapped "{[/test]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.test(java.lang.String)
+2018-12-26 11:29:02[main:3750]-[INFO] Mapped "{[/upload],consumes=[multipart/*]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-12-26 11:29:02[main:3761]-[INFO] Mapped "{[/uploadFile]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 11:29:02[main:3769]-[INFO] Mapped "{[/handleTexture]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleTexture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 11:29:02[main:3779]-[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-26 11:29:02[main:3789]-[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-26 11:29:02[main:3847]-[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:29:02[main:3856]-[INFO] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:29:02[main:3944]-[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 11:29:02[main:4153]-[INFO] Registering beans for JMX exposure on startup
+2018-12-26 11:29:02[main:4210]-[INFO] Initializing ProtocolHandler ["http-nio-8090"]
+2018-12-26 11:29:02[main:4231]-[INFO] Starting ProtocolHandler ["http-nio-8090"]
+2018-12-26 11:29:02[main:4293]-[INFO] Using a shared selector for servlet write/read
+2018-12-26 11:29:02[main:4334]-[INFO] Tomcat started on port(s): 8090 (http)
+2018-12-26 11:29:02[main:4345]-[INFO] Started Application in 4.731 seconds (JVM running for 5.335)
+2018-12-26 11:29:27[http-nio-8090-exec-1:28777]-[INFO] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-26 11:29:27[http-nio-8090-exec-1:28780]-[INFO] FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-26 11:29:27[http-nio-8090-exec-1:28818]-[INFO] FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2018-12-26 12:27:30[main:0]-[INFO] Starting Application v0.0.1-SNAPSHOT on LAPTOP-JU9IRUT9 with PID 15780 (E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\lib\buoumall-u3dTextureService-impl-0.0.1-SNAPSHOT.jar started by lenovo in E:\github\datasetWeb\hair2.0\WebContent\buoumall-u3dTextureService-impl\bin)
+2018-12-26 12:27:30[main:0]-[INFO] No active profile set, falling back to default profiles: default
+2018-12-26 12:27:30[main:31]-[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 12:27:30 CST 2018]; root of context hierarchy
+2018-12-26 12:27:31[background-preinit:406]-[INFO] HV000001: Hibernate Validator 5.2.4.Final
+2018-12-26 12:27:32[main:1557]-[INFO] Tomcat initialized with port(s): 8090 (http)
+2018-12-26 12:27:32[main:1573]-[INFO] Starting service Tomcat
+2018-12-26 12:27:32[main:1573]-[INFO] Starting Servlet Engine: Apache Tomcat/8.0.33
+2018-12-26 12:27:32[localhost-startStop-1:1678]-[INFO] Initializing Spring embedded WebApplicationContext
+2018-12-26 12:27:32[localhost-startStop-1:1678]-[INFO] Root WebApplicationContext: initialization completed in 1647 ms
+2018-12-26 12:27:32[localhost-startStop-1:1938]-[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-26 12:27:32[localhost-startStop-1:1938]-[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-26 12:27:32[localhost-startStop-1:1938]-[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-26 12:27:32[localhost-startStop-1:1938]-[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-26 12:27:32[localhost-startStop-1:1938]-[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-26 12:27:32[main:2173]-[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Wed Dec 26 12:27:30 CST 2018]; root of context hierarchy
+2018-12-26 12:27:32[main:2219]-[INFO] Mapped "{[/test]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.test(java.lang.String)
+2018-12-26 12:27:32[main:2219]-[INFO] Mapped "{[/handleTexture]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleTexture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 12:27:32[main:2219]-[INFO] Mapped "{[/upload],consumes=[multipart/*]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-12-26 12:27:32[main:2235]-[INFO] Mapped "{[/uploadFile]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(java.lang.String,java.lang.String,java.lang.String)
+2018-12-26 12:27:32[main:2235]-[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-26 12:27:32[main:2235]-[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-26 12:27:33[main:2251]-[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 12:27:33[main:2251]-[INFO] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 12:27:33[main:2282]-[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-26 12:27:33[main:2360]-[INFO] Registering beans for JMX exposure on startup
+2018-12-26 12:27:33[main:2376]-[INFO] Initializing ProtocolHandler ["http-nio-8090"]
+2018-12-26 12:27:33[main:2391]-[INFO] Starting ProtocolHandler ["http-nio-8090"]
+2018-12-26 12:27:33[main:2407]-[INFO] Using a shared selector for servlet write/read
+2018-12-26 12:27:33[main:2423]-[INFO] Tomcat started on port(s): 8090 (http)
+2018-12-26 12:27:33[main:2423]-[INFO] Started Application in 2.692 seconds (JVM running for 3.316)
+2018-12-26 12:30:14[http-nio-8090-exec-1:164181]-[INFO] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-26 12:30:14[http-nio-8090-exec-1:164181]-[INFO] FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-26 12:30:14[http-nio-8090-exec-1:164213]-[INFO] FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-12-26 12:30:15[http-nio-8090-exec-1:164275]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/minimalProcess/minimal.exe E:\github\datasetWeb\hair2.0\WebContent\u3d\upload\2\2.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_landmarks.res E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/data
+2018-12-26 12:30:16[http-nio-8090-exec-1:165535]-[INFO] Stasm:[time initXML0.11, time openImage0.031, real search Time0.594, real Time0.594, 238, 217, 239, 239, 241, 261, 247, 285, 266, 310, 291, 324, 311, 327, 331, 322, 351, 304, 364, 278, 369, 255, 371, 236, 373, 217, 335, 159, 305, 152, 277, 157, 285, 194, 270, 193, 257, 203, 271, 202, 284, 202, 299, 202, 326, 203, 339, 195, 353, 195, 363, 205, 352, 204, 340, 204, 341, 210, 282, 209, 293, 217, 287, 213, 282, 212, 276, 214, 271, 216, 277, 219, 282, 220, 287, 219, 282, 215, 341, 217, 330, 218, 336, 215, 342, 213, 346, 215, 351, 218, 346, 221, 341, 222, 336, 221, 322, 232, 312, 233, 303, 232, 302, 252, 314, 246, 324, 252, 334, 248, 328, 257, 313, 258, 296, 256, 290, 248, 288, 281, 298, 275, 307, 273, 312, 274, 318, 273, 325, 276, 332, 282, 322, 281, 312, 280, 302, 280, 301, 279, 311, 280, 321, 279, 326, 286, 319, 288, 311, 288, 302, 288, 294, 286]
+2018-12-26 12:30:16[http-nio-8090-exec-1:165535]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/texture/texture.exe E:\github\datasetWeb\hair2.0\WebContent\u3d\upload\2\2.jpg 238,217,239,239,241,261,247,285,266,310,291,324,311,327,331,322,351,304,364,278,369,255,371,236,373,217,335,159,305,152,277,157,285,194,270,193,257,203,271,202,284,202,299,202,326,203,339,195,353,195,363,205,352,204,340,204,341,210,282,209,293,217,287,213,282,212,276,214,271,216,277,219,282,220,287,219,282,215,341,217,330,218,336,215,342,213,346,215,351,218,346,221,341,222,336,221,322,232,312,233,303,232,302,252,314,246,324,252,334,248,328,257,313,258,296,256,290,248,288,281,298,275,307,273,312,274,318,273,325,276,332,282,322,281,312,280,302,280,301,279,311,280,321,279,326,286,319,288,311,288,302,288,294,286 E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/face02.bmp 70 0.5 E:/github/datasetWeb/hair2.0/WebContent/u3d/conf_midres/aft_land.conf E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/model_c.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_body_TextureRes.jpg
+2018-12-26 12:30:20[http-nio-8090-exec-1:170196]-[INFO] texture:E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/model_c.jpg
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_body_TextureRes.jpg
+Log--load Image..Done.
+Log--Load aft..Done.
+Log--Img Zoom..Done.
+Log--Impro Lightness.. able boundry..CvScalar average..do impro..do impro..Done.
+Log--MLS wrap..Done.
+Log--Possion..Done.
+Log--saveImg.. Done.
+
+2018-12-26 12:30:20[http-nio-8090-exec-1:170196]-[INFO] texture:E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/model_c.jpg
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_body_TextureRes.jpg
+Log--load Image..Done.
+Log--Load aft..Done.
+Log--Img Zoom..Done.
+Log--Impro Lightness.. able boundry..CvScalar average..do impro..do impro..Done.
+Log--MLS wrap..Done.
+Log--Possion..Done.
+Log--saveImg.. Done.
+
+2018-12-26 12:30:20[http-nio-8090-exec-1:170196]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/minimalProcess/minimal.exe E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_landmarks.res E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/data
+2018-12-26 12:30:21[http-nio-8090-exec-1:171120]-[INFO] Stasm:[time initXML0.093, time openImage0.047, real search Time0.538, real Time0.539, 151, 143, 153, 183, 158, 217, 165, 251, 194, 301, 234, 330, 267, 334, 299, 327, 324, 295, 339, 254, 346, 216, 351, 184, 351, 149, 319, 44, 269, 32, 219, 41, 220, 102, 194, 102, 173, 121, 196, 116, 219, 116, 245, 116, 288, 118, 311, 104, 334, 103, 352, 123, 332, 118, 312, 118, 317, 129, 216, 127, 235, 145, 225, 137, 215, 133, 206, 136, 196, 144, 205, 149, 215, 151, 225, 149, 218, 141, 317, 144, 297, 146, 307, 139, 317, 136, 325, 139, 334, 147, 325, 151, 316, 153, 306, 151, 283, 171, 267, 172, 251, 173, 252, 203, 271, 191, 287, 204, 302, 199, 293, 210, 269, 213, 241, 209, 231, 198, 225, 252, 243, 238, 259, 233, 269, 234, 278, 232, 292, 238, 304, 251, 285, 248, 269, 248, 250, 248, 250, 250, 268, 252, 285, 250, 294, 260, 282, 264, 268, 265, 252, 264, 237, 261]
+2018-12-26 12:30:21[http-nio-8090-exec-1:171120]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/texture/beauty.exe E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg 5 5 151,143,153,183,158,217,165,251,194,301,234,330,267,334,299,327,324,295,339,254,346,216,351,184,351,149,319,44,269,32,219,41,220,102,194,102,173,121,196,116,219,116,245,116,288,118,311,104,334,103,352,123,332,118,312,118,317,129,216,127,235,145,225,137,215,133,206,136,196,144,205,149,215,151,225,149,218,141,317,144,297,146,307,139,317,136,325,139,334,147,325,151,316,153,306,151,283,171,267,172,251,173,252,203,271,191,287,204,302,199,293,210,269,213,241,209,231,198,225,252,243,238,259,233,269,234,278,232,292,238,304,251,285,248,269,248,250,248,250,250,268,252,285,250,294,260,282,264,268,265,252,264,237,261 1 E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes.jpg 120.0 1
+2018-12-26 12:30:25[http-nio-8090-exec-1:175069]-[INFO] preBeauty:Img Process-->mp:5;mb:5;isAver:1;Weight:1
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg
+CvScalar average..
+2018-12-26 12:30:25[http-nio-8090-exec-1:175069]-[INFO] Beauty pre:Img Process-->mp:5;mb:5;isAver:1;Weight:1
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg
+CvScalar average..
+2018-12-26 12:30:25[http-nio-8090-exec-1:175132]-[INFO] ·µ»Øjson:{"BodyTexturePath":"2_body_TextureRes.jpg","HeadTexturePath":"2_face_TextureRes.jpg","imageDomain":"http://127.0.0.1:8090/static"}
+2018-12-26 12:32:41[http-nio-8090-exec-6:310424]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/minimalProcess/minimal.exe E:\github\datasetWeb\hair2.0\WebContent\u3d\upload\2\2.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_landmarks.res E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/data
+2018-12-26 12:32:42[http-nio-8090-exec-6:311441]-[INFO] Stasm:[time initXML0.089, time openImage0.047, real search Time0.57, real Time0.57, 238, 217, 239, 239, 241, 261, 247, 285, 266, 310, 291, 324, 311, 327, 331, 322, 351, 304, 364, 278, 369, 255, 371, 236, 373, 217, 335, 159, 305, 152, 277, 157, 285, 194, 270, 193, 257, 203, 271, 202, 284, 202, 299, 202, 326, 203, 339, 195, 353, 195, 363, 205, 352, 204, 340, 204, 341, 210, 282, 209, 293, 217, 287, 213, 282, 212, 276, 214, 271, 216, 277, 219, 282, 220, 287, 219, 282, 215, 341, 217, 330, 218, 336, 215, 342, 213, 346, 215, 351, 218, 346, 221, 341, 222, 336, 221, 322, 232, 312, 233, 303, 232, 302, 252, 314, 246, 324, 252, 334, 248, 328, 257, 313, 258, 296, 256, 290, 248, 288, 281, 298, 275, 307, 273, 312, 274, 318, 273, 325, 276, 332, 282, 322, 281, 312, 280, 302, 280, 301, 279, 311, 280, 321, 279, 326, 286, 319, 288, 311, 288, 302, 288, 294, 286]
+2018-12-26 12:32:42[http-nio-8090-exec-6:311441]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/texture/texture.exe E:\github\datasetWeb\hair2.0\WebContent\u3d\upload\2\2.jpg 238,217,239,239,241,261,247,285,266,310,291,324,311,327,331,322,351,304,364,278,369,255,371,236,373,217,335,159,305,152,277,157,285,194,270,193,257,203,271,202,284,202,299,202,326,203,339,195,353,195,363,205,352,204,340,204,341,210,282,209,293,217,287,213,282,212,276,214,271,216,277,219,282,220,287,219,282,215,341,217,330,218,336,215,342,213,346,215,351,218,346,221,341,222,336,221,322,232,312,233,303,232,302,252,314,246,324,252,334,248,328,257,313,258,296,256,290,248,288,281,298,275,307,273,312,274,318,273,325,276,332,282,322,281,312,280,302,280,301,279,311,280,321,279,326,286,319,288,311,288,302,288,294,286 E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/face02.bmp 70 0.5 E:/github/datasetWeb/hair2.0/WebContent/u3d/conf_midres/aft_land.conf E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/model_c.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_body_TextureRes.jpg
+2018-12-26 12:32:46[http-nio-8090-exec-6:315344]-[INFO] texture:E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/model_c.jpg
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_body_TextureRes.jpg
+Log--load Image..Done.
+Log--Load aft..Done.
+Log--Img Zoom..Done.
+Log--Impro Lightness.. able boundry..CvScalar average..do impro..do impro..Done.
+Log--MLS wrap..Done.
+Log--Possion..Done.
+Log--saveImg.. Done.
+
+2018-12-26 12:32:46[http-nio-8090-exec-6:315344]-[INFO] texture:E:/github/datasetWeb/hair2.0/WebContent/u3d/obj_resource/model_c.jpg
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_body_TextureRes.jpg
+Log--load Image..Done.
+Log--Load aft..Done.
+Log--Img Zoom..Done.
+Log--Impro Lightness.. able boundry..CvScalar average..do impro..do impro..Done.
+Log--MLS wrap..Done.
+Log--Possion..Done.
+Log--saveImg.. Done.
+
+2018-12-26 12:32:46[http-nio-8090-exec-6:315344]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/minimalProcess/minimal.exe E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_landmarks.res E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/data
+2018-12-26 12:32:46[http-nio-8090-exec-6:316102]-[INFO] Stasm:[time initXML0.093, time openImage0.047, real search Time0.524, real Time0.524, 151, 143, 153, 183, 158, 217, 165, 251, 194, 301, 234, 330, 267, 334, 299, 327, 324, 295, 339, 254, 346, 216, 351, 184, 351, 149, 319, 44, 269, 32, 219, 41, 220, 102, 194, 102, 173, 121, 196, 116, 219, 116, 245, 116, 288, 118, 311, 104, 334, 103, 352, 123, 332, 118, 312, 118, 317, 129, 216, 127, 235, 145, 225, 137, 215, 133, 206, 136, 196, 144, 205, 149, 215, 151, 225, 149, 218, 141, 317, 144, 297, 146, 307, 139, 317, 136, 325, 139, 334, 147, 325, 151, 316, 153, 306, 151, 283, 171, 267, 172, 251, 173, 252, 203, 271, 191, 287, 204, 302, 199, 293, 210, 269, 213, 241, 209, 231, 198, 225, 252, 243, 238, 259, 233, 269, 234, 278, 232, 292, 238, 304, 251, 285, 248, 269, 248, 250, 248, 250, 250, 268, 252, 285, 250, 294, 260, 282, 264, 268, 265, 252, 264, 237, 261]
+2018-12-26 12:32:46[http-nio-8090-exec-6:316102]-[INFO] E:/github/datasetWeb/hair2.0/WebContent/u3d/exe_resource/texture/beauty.exe E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg 5 5 151,143,153,183,158,217,165,251,194,301,234,330,267,334,299,327,324,295,339,254,346,216,351,184,351,149,319,44,269,32,219,41,220,102,194,102,173,121,196,116,219,116,245,116,288,118,311,104,334,103,352,123,332,118,312,118,317,129,216,127,235,145,225,137,215,133,206,136,196,144,205,149,215,151,225,149,218,141,317,144,297,146,307,139,317,136,325,139,334,147,325,151,316,153,306,151,283,171,267,172,251,173,252,203,271,191,287,204,302,199,293,210,269,213,241,209,231,198,225,252,243,238,259,233,269,234,278,232,292,238,304,251,285,248,269,248,250,248,250,250,268,252,285,250,294,260,282,264,268,265,252,264,237,261 1 E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes.jpg 120.0 1
+2018-12-26 12:32:50[http-nio-8090-exec-6:320044]-[INFO] preBeauty:Img Process-->mp:5;mb:5;isAver:1;Weight:1
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg
+CvScalar average..
+2018-12-26 12:32:50[http-nio-8090-exec-6:320044]-[INFO] Beauty pre:Img Process-->mp:5;mb:5;isAver:1;Weight:1
+E:/github/datasetWeb/hair2.0/WebContent/u3d/upload/2/2_face_TextureRes_Bef.jpg
+CvScalar average..
+2018-12-26 12:32:50[http-nio-8090-exec-6:320044]-[INFO] ·µ»Øjson:{"BodyTexturePath":"2_body_TextureRes.jpg","HeadTexturePath":"2_face_TextureRes.jpg","imageDomain":"http://127.0.0.1:8090/static"}

@@ -1,0 +1,66 @@
+2018-12-25 23:06:13[main:0]-[INFO] Starting Application v0.0.1-SNAPSHOT on LAPTOP-JU9IRUT9 with PID 15296 (C:\Users\lenovo\Desktop\buoumall-u3dTextureService-impl-assembly\buoumall-u3dTextureService-impl\lib\buoumall-u3dTextureService-impl-0.0.1-SNAPSHOT.jar started by lenovo in C:\Users\lenovo\Desktop\buoumall-u3dTextureService-impl-assembly\buoumall-u3dTextureService-impl\bin)
+2018-12-25 23:06:13[main:1]-[INFO] No active profile set, falling back to default profiles: default
+2018-12-25 23:06:13[main:64]-[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Tue Dec 25 23:06:13 CST 2018]; root of context hierarchy
+2018-12-25 23:06:14[background-preinit:699]-[INFO] HV000001: Hibernate Validator 5.2.4.Final
+2018-12-25 23:06:15[main:2347]-[INFO] Tomcat initialized with port(s): 8090 (http)
+2018-12-25 23:06:15[main:2365]-[INFO] Starting service Tomcat
+2018-12-25 23:06:15[main:2366]-[INFO] Starting Servlet Engine: Apache Tomcat/8.0.33
+2018-12-25 23:06:15[localhost-startStop-1:2523]-[INFO] Initializing Spring embedded WebApplicationContext
+2018-12-25 23:06:15[localhost-startStop-1:2524]-[INFO] Root WebApplicationContext: initialization completed in 2463 ms
+2018-12-25 23:06:16[localhost-startStop-1:2884]-[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-25 23:06:16[localhost-startStop-1:2892]-[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-25 23:06:16[localhost-startStop-1:2893]-[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-25 23:06:16[localhost-startStop-1:2897]-[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-25 23:06:16[localhost-startStop-1:2897]-[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-25 23:06:16[main:3244]-[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@fad74ee: startup date [Tue Dec 25 23:06:13 CST 2018]; root of context hierarchy
+2018-12-25 23:06:16[main:3335]-[INFO] Mapped "{[/test]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.test(java.lang.String)
+2018-12-25 23:06:16[main:3337]-[INFO] Mapped "{[/handleTexture]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleTexture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-12-25 23:06:16[main:3338]-[INFO] Mapped "{[/upload],consumes=[multipart/*]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(org.springframework.web.multipart.MultipartFile,java.lang.String)
+2018-12-25 23:06:16[main:3341]-[INFO] Mapped "{[/uploadFile]}" onto public java.lang.String com.buoumall.TextureService.controller.TextureServiceController.handleFileUpload(java.lang.String,java.lang.String,java.lang.String)
+2018-12-25 23:06:16[main:3343]-[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-25 23:06:16[main:3343]-[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-25 23:06:16[main:3375]-[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-25 23:06:16[main:3376]-[INFO] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-25 23:06:16[main:3422]-[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-25 23:06:16[main:3526]-[INFO] Registering beans for JMX exposure on startup
+2018-12-25 23:06:16[main:3564]-[INFO] Initializing ProtocolHandler ["http-nio-8090"]
+2018-12-25 23:06:16[main:3577]-[INFO] Starting ProtocolHandler ["http-nio-8090"]
+2018-12-25 23:06:16[main:3602]-[INFO] Using a shared selector for servlet write/read
+2018-12-25 23:06:16[main:3627]-[INFO] Tomcat started on port(s): 8090 (http)
+2018-12-25 23:06:16[main:3635]-[INFO] Started Application in 4.031 seconds (JVM running for 4.61)
+2018-12-25 23:12:22[http-nio-8090-exec-1:369638]-[INFO] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-25 23:12:22[http-nio-8090-exec-1:369645]-[INFO] FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-25 23:12:23[http-nio-8090-exec-1:369728]-[INFO] FrameworkServlet 'dispatcherServlet': initialization completed in 63 ms
+2018-12-25 23:12:23[http-nio-8090-exec-1:369993]-[INFO] C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/exe_resource/minimalProcess/minimal.exe C:\Users\lenovo\Desktop\buoumall-u3dTextureService-impl-assembly\u3d\upload\1\1.jpg C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_landmarks.res C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/exe_resource/data
+2018-12-25 23:12:26[http-nio-8090-exec-1:373182]-[INFO] Stasm:[time initXML0.21, time openImage0.134, real search Time1.383, real Time1.383, 158, 139, 162, 170, 170, 201, 185, 240, 211, 273, 239, 301, 268, 308, 297, 302, 320, 277, 344, 253, 359, 212, 367, 177, 371, 142, 323, 36, 272, 25, 219, 35, 218, 102, 192, 99, 171, 115, 193, 110, 216, 114, 242, 117, 288, 117, 313, 101, 340, 99, 361, 117, 338, 111, 314, 114, 318, 125, 211, 124, 233, 143, 222, 136, 211, 133, 201, 136, 191, 142, 201, 149, 211, 152, 222, 150, 212, 140, 316, 141, 296, 144, 307, 136, 317, 133, 327, 136, 337, 142, 327, 149, 318, 152, 307, 149, 281, 178, 265, 179, 250, 179, 250, 208, 267, 202, 283, 208, 297, 200, 289, 210, 267, 218, 244, 210, 235, 199, 226, 241, 244, 238, 258, 236, 268, 237, 277, 236, 292, 238, 309, 240, 286, 245, 268, 246, 250, 245, 249, 248, 268, 252, 286, 248, 299, 254, 286, 263, 269, 267, 251, 264, 237, 255]
+2018-12-25 23:12:26[http-nio-8090-exec-1:373195]-[INFO] C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/exe_resource/texture/texture.exe C:\Users\lenovo\Desktop\buoumall-u3dTextureService-impl-assembly\u3d\upload\1\1.jpg 158,139,162,170,170,201,185,240,211,273,239,301,268,308,297,302,320,277,344,253,359,212,367,177,371,142,323,36,272,25,219,35,218,102,192,99,171,115,193,110,216,114,242,117,288,117,313,101,340,99,361,117,338,111,314,114,318,125,211,124,233,143,222,136,211,133,201,136,191,142,201,149,211,152,222,150,212,140,316,141,296,144,307,136,317,133,327,136,337,142,327,149,318,152,307,149,281,178,265,179,250,179,250,208,267,202,283,208,297,200,289,210,267,218,244,210,235,199,226,241,244,238,258,236,268,237,277,236,292,238,309,240,286,245,268,246,250,245,249,248,268,252,286,248,299,254,286,263,269,267,251,264,237,255 C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_face_TextureRes.jpg C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/obj_resource/face02.bmp 70 0.5 C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/conf_midres/aft_land.conf C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/obj_resource/model_c.jpg C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_body_TextureRes.jpg
+2018-12-25 23:12:34[http-nio-8090-exec-1:381627]-[INFO] texture:C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/obj_resource/model_c.jpg
+C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_body_TextureRes.jpg
+Log--load Image..Done.
+Log--Load aft..Done.
+Log--Img Zoom..Done.
+Log--Impro Lightness.. able boundry..CvScalar average..do impro..do impro..Done.
+Log--MLS wrap..Done.
+Log--Possion..Done.
+Log--saveImg.. Done.
+
+2018-12-25 23:12:34[http-nio-8090-exec-1:381627]-[INFO] texture:C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/obj_resource/model_c.jpg
+C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_body_TextureRes.jpg
+Log--load Image..Done.
+Log--Load aft..Done.
+Log--Img Zoom..Done.
+Log--Impro Lightness.. able boundry..CvScalar average..do impro..do impro..Done.
+Log--MLS wrap..Done.
+Log--Possion..Done.
+Log--saveImg.. Done.
+
+2018-12-25 23:12:34[http-nio-8090-exec-1:381628]-[INFO] C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/exe_resource/minimalProcess/minimal.exe C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_face_TextureRes_Bef.jpg C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_landmarks.res C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/exe_resource/data
+2018-12-25 23:12:36[http-nio-8090-exec-1:383041]-[INFO] Stasm:[time initXML0.148, time openImage0.072, real search Time0.814, real Time0.814, 155, 141, 157, 176, 163, 209, 175, 248, 203, 285, 237, 313, 268, 319, 300, 311, 330, 281, 352, 247, 362, 208, 368, 175, 369, 141, 317, 33, 263, 22, 210, 33, 217, 98, 191, 96, 170, 112, 192, 106, 215, 110, 240, 113, 290, 113, 313, 97, 339, 95, 359, 112, 338, 106, 315, 109, 319, 123, 210, 123, 232, 144, 221, 135, 210, 132, 200, 135, 190, 142, 200, 149, 211, 152, 222, 149, 212, 140, 319, 140, 298, 143, 309, 135, 320, 131, 330, 134, 340, 142, 330, 148, 320, 151, 309, 149, 281, 176, 265, 176, 249, 176, 250, 206, 267, 196, 283, 205, 298, 198, 289, 210, 267, 216, 242, 210, 233, 198, 224, 245, 241, 237, 257, 233, 267, 234, 276, 233, 292, 236, 308, 243, 286, 245, 267, 245, 248, 245, 248, 251, 267, 254, 286, 250, 298, 257, 285, 266, 268, 270, 250, 267, 235, 259]
+2018-12-25 23:12:36[http-nio-8090-exec-1:383045]-[INFO] C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/exe_resource/texture/beauty.exe C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_face_TextureRes_Bef.jpg 5 5 155,141,157,176,163,209,175,248,203,285,237,313,268,319,300,311,330,281,352,247,362,208,368,175,369,141,317,33,263,22,210,33,217,98,191,96,170,112,192,106,215,110,240,113,290,113,313,97,339,95,359,112,338,106,315,109,319,123,210,123,232,144,221,135,210,132,200,135,190,142,200,149,211,152,222,149,212,140,319,140,298,143,309,135,320,131,330,134,340,142,330,148,320,151,309,149,281,176,265,176,249,176,250,206,267,196,283,205,298,198,289,210,267,216,242,210,233,198,224,245,241,237,257,233,267,234,276,233,292,236,308,243,286,245,267,245,248,245,248,251,267,254,286,250,298,257,285,266,268,270,250,267,235,259 1 C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_face_TextureRes.jpg 120.0 1
+2018-12-25 23:12:42[http-nio-8090-exec-1:389562]-[INFO] preBeauty:Img Process-->mp:5;mb:5;isAver:1;Weight:1
+C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_face_TextureRes_Bef.jpg
+CvScalar average..
+2018-12-25 23:12:42[http-nio-8090-exec-1:389562]-[INFO] Beauty pre:Img Process-->mp:5;mb:5;isAver:1;Weight:1
+C:/Users/lenovo/Desktop/buoumall-u3dTextureService-impl-assembly/u3d/upload/1/1_face_TextureRes_Bef.jpg
+CvScalar average..
+2018-12-25 23:12:43[http-nio-8090-exec-1:389697]-[INFO] ·µ»Øjson:{"BodyTexturePath":"1_body_TextureRes.jpg","HeadTexturePath":"1_face_TextureRes.jpg","imageDomain":"http://127.0.0.1:8090/static"}
